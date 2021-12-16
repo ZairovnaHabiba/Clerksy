@@ -5,7 +5,8 @@
 }
 
 body{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif; 
+    font-family: 'Recoleta';
 }
 
 #hero{
@@ -151,6 +152,7 @@ body{
 #production{
     background-color: #163a24;
     padding: 66px 0px 139px 0px;
+    margin-bottom: 114px;
 }
 
 .production-title{
@@ -159,7 +161,7 @@ body{
     font-size: 48px;
     line-height: 54px;
     text-align: center;
-    color: #FBFAF7;
+    color: #fbfaf7;
     margin-bottom: 68px;
 }
 
@@ -177,6 +179,407 @@ body{
     font-size: 18px;
     line-height: 27px;
     width: 198px;
-    color: #FBFAF7;
+    color: #fbfaf7;
     text-align: center;
 }
+
+#exercise {
+    padding: 100px 0px;
+    background-color:  #f2efe6;
+    text-align: center;
+}
+
+.exercise-title {
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    width: 739px;
+    margin: 20px auto;
+}
+
+.exercise-text {
+    margin-top: 55px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #163A24;
+    width: 739px;
+    margin: 0 auto;
+    margin-bottom: 39px;
+}
+
+/* New */
+
+#scenes {
+    padding: 182px 0px 120px 0px;
+}
+
+.scenes-description {
+    width: 379px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.scenes-div {
+    justify-content: space-evenly;
+    margin-bottom: 115px;
+}
+
+.scenes-text {
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+
+.scenes-title {
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163a24;
+    margin-bottom: 27px;
+}
+
+#consider { 
+    padding: 100px 0px;
+    background-color:  #f2efe6;
+}
+
+.consider-description {
+    width: 379px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.consider-div {
+    justify-content: space-evenly;
+    margin-bottom: 18px;
+}
+
+.consider-title {
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    width: 739px;
+    margin: 20px auto;
+}
+
+.consider-text {
+    margin-top: 55px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #163A24;
+    width: 739px;
+    margin: 0 auto;
+    margin-bottom: 39px;
+}
+
+
+
+.consider-list{
+    list-style: none;
+    justify-content: start;
+}
+
+.consider-list-item {
+    width: 352px;
+    height: 393px;
+    background: #FBFAF7;
+    box-shadow: 5px 5px 20px #E9E4D5;
+    border-radius: 15px;
+    padding: 50px 64px 66px 46px;
+    margin-right: 40px;
+}
+
+.list-item-title {
+    font-family: 'Recoleta';
+    margin-block: 20px 23px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #163A24;
+}
+
+.consider-list2{
+    list-style: outside;
+}
+
+.consider-items{
+    margin-block: 15px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #163A24;
+}
+
+.middle {
+    height: 430px;
+}
+
+#buy {
+  padding: 114PX 0PX 124px 0px;
+  background-color: #f2efe6;
+}
+
+.buy-description {
+    width: 379px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buy-div {
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+
+.buy-title {
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    width: 739px;
+    margin: 20px auto;
+}
+
+.buy-text {
+    margin-top: 55px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #163A24;
+    width: 739px;
+    margin: 0 auto;
+    margin-bottom: 39px;
+}
+
+.buy-list{
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy-list-item {
+    margin-bottom: 5px;
+}
+
+.buy-par {
+    width: 260px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #163A24;
+    margin-bottom: 13px;
+}
+
+.buy-time{
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 31px;
+    text-align: center;
+    color: #163A24;
+}
+
+.buy-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 124px;
+}
+
+.button-link {
+    font-family: Noto Sans;
+    height: 52px;
+    width: 244px;
+    display: inline-block;
+    background-color: #198C36;
+    border-radius: 160px;
+    padding:15px 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #FBFAF7;
+    margin: 0 auto;
+}
+
+#resources{
+    padding: 130px 0px;
+}
+
+.resources-description {
+    width: 379px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resources-div {
+    justify-content: space-evenly;
+    margin-bottom: 115px;
+}
+
+.resources-text {
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+
+.resources-title {
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163a24;
+    margin-bottom: 27px;
+}
+
+.resources-button {
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 124px;
+}
+
+.resources-link {
+    font-family: Noto Sans;
+    height: 52px;
+    width: 190px;
+    display: inline-block;
+    background-color: #198C36;
+    border-radius: 160px;
+    padding:15px 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #FBFAF7;
+    margin: 0 auto;
+}
+
+.resources-div p{
+    margin-bottom: 20px;
+}
+
+#get-started{
+    background-color: #163A24;
+    padding-top: 30px;
+}
+
+.started-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+}
+
+.started-title {
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #FBFAF7;
+    margin-bottom: 26px;
+}
+ 
+.started-text{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FBFAF7;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.started-button {
+    height: 52px;
+    width: 258px;
+    display: inline-block;
+    background-color: #FAB5A0;
+    border-radius: 160px;
+    padding:15px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #163A24;
+    margin: 0 auto;
+}
+
+.footer-site{
+    padding: 44px 0px 25px 0px;
+}
+
+.footer-one {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 43px;
+}
+
+.footer-title {
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #163A24;
+}
+
+.footer-list {
+    list-style: none;
+    color: #198C36;
+    font-size: 25px;
+}
+
+.icon-list{
+    margin-right: 15px;
+}
+
+.footer-line {
+    border: none;
+    background-color: #c7c6c6;
+    margin-bottom: 24px;
+    height: 1px;
+}
+
+.footer-two{
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.footer-nav{
+    list-style: none;
+} 
+
+.footer-list-item:not(:last-child){
+    margin-right: 14px;
+}
+
+.footer-list-link{
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    color: hsl(135, 70%, 32%);
+    text-decoration: none;
+}
+  
+
+
+
+
+
+
+
+
+
