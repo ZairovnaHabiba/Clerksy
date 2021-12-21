@@ -138,16 +138,17 @@ body{
     margin-bottom: 66px;
 }
 
-.site-list-item {
-    list-style: none;
+.site-list {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 87px;
 }
 
-.spripe {
-    margin-left: 272px;
+.site-list-item {
+    list-style: none;
 }
+
+
 
 #production{
     background-color: #163a24;
